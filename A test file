@@ -1,0 +1,34 @@
+#include <iostream>
+
+using namespace std;
+// It's a variable can be anything really.
+int Apples = 32, Oranges = 71;
+int Profit = 350;
+
+int num1, num2, result;
+
+
+
+int main()
+{
+
+
+    cout << "Apples:" << Apples << endl;
+    cout << "Oranges:" << Oranges << endl;
+    cout << "This is the amount of fruit we currently own." << endl;
+    cout << "Profit:" << Profit << endl;
+    cout << " Num1: " << num1 << " Num2: " << num2 << " Result: " << result << endl;
+    num1 = 32;
+    num2 = 71;
+
+    result = num1 + num2;
+    return 0;
+
+}
+
+int secondary()
+{ // A test page I don't fully understand at the moment.
+    cout << "This is the secondary test page." << endl;
+    cout << "Keep in mind it's only a test page." << endl;
+    return 0;
+}
